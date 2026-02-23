@@ -51,13 +51,35 @@
         <section>
             <h2>Contato</h2>
             <p>Tem um projeto em mente? Entre em contato</p>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="Email">Email: </label>
+                <input type="text" id="email" name=email required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required> <br>
+
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="orçamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option> 
+                </select> <br>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="10" rows="10"></textarea> <br>
+
+                <input type="checkbox" id="inscrição" name="inscrição">
+                <label for="inscrição">Deseja receber minhas newletter? Fique por dentro</label> <br>
+
+                <input type="submit" value="enviar mensagem">
+
+            </form>
 
         </section>
-    </footer>
-    <address>
-        Email: <a href="mailto:leo@leo.com">leo@leo.com</a> <br>
-        tel: <a href="tel:13996042757">13996042757</a>
-    </address>
+    
 
 </body>
 
